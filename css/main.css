@@ -17,7 +17,6 @@ a {
 .caption {
   background-image: url("../images/rocket.svg");
   background-repeat: no-repeat;
-  background-size: contain;
   padding-right: 3em;
 }
 
@@ -38,5 +37,9 @@ a:focus {
 }
 
 .btn-ghost {
-  transition:
+  transition: all 1s linear;
+}
+
+h1, p {
+  text-shadow: 1px 1px 5px #fff;
 }
