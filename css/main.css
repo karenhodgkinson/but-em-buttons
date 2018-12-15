@@ -1,0 +1,42 @@
+html {
+  font-family: "Ubuntu Condensed", sans-serif;
+  color: #fff;
+  background-image: url("../images/starfield.png");
+  background-size: cover;
+}
+
+a {
+  border-color: #b4fff4;
+  border-radius: 2px;
+}
+
+.btn {
+  padding: 0;
+}
+
+.caption {
+  background-image: url("../images/rocket.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 3em;
+}
+
+.three {
+  border-bottom: solid 3px #fff;
+}
+
+a:hover {
+  background-color: #90ccc3;
+}
+
+a:active {
+  background-color: rgba(180, 255, 244, .2);
+}
+
+a:focus {
+  color: rgba(255, 255, 255, .7);
+}
+
+.btn-ghost {
+  transition:
+}
